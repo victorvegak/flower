@@ -1,0 +1,65 @@
+body {
+    display: grid;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    font-family: 'Aboreto', 'cursive';
+
+}
+
+.greeting {
+    font-size: 3em;
+    padding: 10px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    text-shadow: 2px 2px 4px rgba(223, 226, 51, 0.74);
+}
+
+@keyframes example {
+    from {
+        color: whitesmoke;
+    }
+
+    to {
+        color: rgb(155, 115, 179);
+    }
+}
+
+.description {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(221, 151, 80, 0.979);
+
+}
+
+#presiona {
+    margin-bottom: 10px;
+}
+
+.button {
+    display: grid;
+    justify-content: center;
+
+}
+
+button {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+a {
+    color: brown;
+}
+
+
+@media screen and (max-width: 900px) {
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+}
